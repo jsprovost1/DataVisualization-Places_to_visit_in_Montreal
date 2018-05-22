@@ -1,3 +1,3 @@
 # DataVisualization-Places_to_visit_in_Montreal
 
-This site was built using [Spots](This site was built using [GitHub Pages](https://pages.github.com/).).
+This site was built using [Spots](https://jsprovost1.github.io/DataVisualization-Places_to_visit_in_Montreal/spots_Montreal.html).
