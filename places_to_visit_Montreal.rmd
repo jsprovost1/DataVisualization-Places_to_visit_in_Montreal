@@ -1,13 +1,13 @@
 ---
-title: "Places to visit"
+title: "Nice Places To Visit In Montreal During The Summer"
 author: "Jean-Sebastien Provost"
-date: "6/21/2017"
+date: "2017-05-22"
 output:
   html_document:
     keep_md: True
 ---
 
-```{r, echo = FALSE, message=FALSE}
+```{r, echo = FALSE, message=FALSE, comment=""}
 library(leaflet)
 places <- data.frame(lat = c(45.505046, 45.504597, 45.507981, 45.499687, 45.524821, 45.500853, 45.524792, 45.521289, 45.561033, 45.510862),
                      lng = c(-73.577520, -73.5591097, -73.565515, -73.596930, -73.546140, -73.572071, -73.582115, -73.575399, -73.547000, -73.565883),
@@ -31,4 +31,5 @@ places %>% leaflet() %>%
   addCircleMarkers(color = places$col) %>%
   addLegend(labels = c("Things to do"), colors = c("blue"))
 
+print("Feel Free To Zoom In And Click On The Links To Get More Information")
 ```
