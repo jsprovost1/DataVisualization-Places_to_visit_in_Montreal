@@ -2,7 +2,7 @@
 title: "Places to visit"
 author: "Jean-Sebastien Provost"
 date: "6/21/2017"
-output: 
+output:
   html_document:
     keep_md: True
 ---
